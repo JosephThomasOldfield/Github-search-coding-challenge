@@ -4,7 +4,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 
 export default function header() {
     return (
-        <AppBar>
+        <AppBar position='relative'>
             <Toolbar>
                 <GitHubIcon />
                 <Typography variant='h6'>Github search tool</Typography>
